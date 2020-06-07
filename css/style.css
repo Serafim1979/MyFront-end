@@ -1,17 +1,111 @@
-.image {
-    text-align: center;
-}
-
-ul {
-    list-style-type: square;
-}
-
-ol {
-    list-style-type: lower-alpha;
-}
-
-table {
-    border: 1px solid;
-    width: 50%;
+/*-----Custom rezet style-------*/
+* {
     padding: 0;
+    margin: 0;
 }
+
+img {
+    border: none;
+}
+
+/*-----Global Styles------*/
+body {
+    background: url("/img/bg.jpg") top repeat-x;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #555;
+    line-height: 1.3;
+}
+
+.container {
+    width: 755px;
+    margin: 0 auto;
+}
+
+/*-------header------------------*/
+.head {
+    padding: 30px 0 0 0;
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+.menu {
+    list-style: none;
+    background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-left: 1px solid #f3f3f3;
+    border-top: 1px solid #f3f3f3;
+    border-right: 1px solid #f3f3f3;
+    border-bottom: 3px solid #9dc5f0;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+    border-left: 1px solid #f3f3f3;
+    padding: 8px 20px;
+}
+
+.menu li a {
+    color: #5f5d67;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+    color: #9dc5f0;
+}
+
+/*---------------content-------------------*/
+.main-content {
+    overflow: hidden;
+}
+
+.main-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font: normal;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    margin-bottom: 20px;
+}
+
+.main-content-img {
+    margin-bottom: 20px;
+}
+
+.content-left {
+    background-color: #fff;
+    padding: 30px 30px 32000px 30px;
+    margin-bottom: -32000px;
+    width: 420px;
+    float: left;
+}
+
+.content-right {
+    background-color: #fff;
+    width: 230px;
+    padding: 30px 10px 32000px 25px;
+    margin-bottom: -32000px;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.content-right h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*----------------Footer-------------------*/
+.footer {
+    padding: 15px 0 20px 30px;
+    color: #a1a0a7;
+}
+
